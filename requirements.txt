@@ -1,0 +1,2 @@
+# Requirements for BioMap static web service on Render
+# python -m http.server uses standard library
