@@ -2541,8 +2541,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
     with open("biomap.html", "w", encoding="utf-8") as f:
         f.write(html)
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html)
 
-    print("Finished writing biomap.html. Total length:", len(html), "bytes.")
+    print("Finished writing biomap.html and index.html. Total length:", len(html), "bytes.")
 
 if __name__ == "__main__":
     build()
